@@ -36,26 +36,24 @@ function setupHoverSound(selector, soundPath, maxVolume = 0.2, fadeDuration = 50
 }
 
 // === FORGERON ===
-setupHoverSound('.zone-forgeron', '../../public/sounds/forge.mp3', 0.2, 500);
+const BASE_PATH = '/When-gods-were-Kids';
 
-// === FOUDRE ===
-setupHoverSound('.zone-foudre', '../../public/sounds/thunder.mp3', 0.3, 500);
+setupHoverSound('.zone-forgeron', `${BASE_PATH}/public/sounds/forge.mp3`);
+setupHoverSound('.zone-foudre', `${BASE_PATH}/public/sounds/thunder.mp3`);
+setupHoverSound('.zone-water', `${BASE_PATH}/public/sounds/vague.wav`);
+setupHoverSound('.zone-chaine', `${BASE_PATH}/public/sounds/chaine4.mp3`);
 
-// === EAU ===
-setupHoverSound('.zone-water', '../../public/sounds/vague.wav', 0.4, 500);
-setupHoverSound('.zone-chaine', '../../public/sounds/chaine4.mp3', 0.4, 500);
-// dfsd
-// Configuration des musiques
 const musicConfig = {
   ambient: {
-    path: '../../public/music/NujabesLuv.mp3',
+    path: `${BASE_PATH}/public/music/NujabesLuv.mp3`,
     name: 'Musique Ambient'
   },
   battle: {
-    path: '../../public/music/ChocDesTitan.mp3',
+    path: `${BASE_PATH}/public/music/ChocDesTitan.mp3`,
     name: 'Musique Bataille'
   }
 };
+
 
 // Création des audios
 const audioTracks = {
