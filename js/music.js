@@ -44,7 +44,7 @@ setupHoverSound('.zone-foudre', '../../public/sounds/thunder.mp3', 0.3, 500);
 // === EAU ===
 setupHoverSound('.zone-water', '../../public/sounds/vague.wav', 0.4, 500);
 setupHoverSound('.zone-chaine', '../../public/sounds/chaine4.mp3', 0.4, 500);
-
+// dfsd
 // Configuration des musiques
 const musicConfig = {
   ambient: {
