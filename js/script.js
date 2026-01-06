@@ -29,9 +29,9 @@ if (svgs.length > 0) {
 
 
 function checkScreenSize() {
-  console.log(window.innerWidth);
   const modal = document.querySelector(".screen-small");
-
+  
+  console.log(window.innerWidth);
   if (window.innerWidth < 900) {
     
     modal.style.display = "flex"; // ou block selon ton design

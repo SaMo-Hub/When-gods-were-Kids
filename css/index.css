@@ -184,7 +184,7 @@ html::-webkit-scrollbar {
 
 .selected-langue{
   position: absolute;
-  bottom: 8%;
+  bottom: 11%;
   display: flex;
   flex-direction: column;
   justify-content: center;

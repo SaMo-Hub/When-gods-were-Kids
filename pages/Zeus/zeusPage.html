@@ -14,80 +14,40 @@
   </head>
 
   <body class="chapitre-list">
-    <div class="screen-small">
-      <div class="screen-small-modal">
-        <h2>Votre ecran n’est pas a la bonne taille</h2>
-        <div class="p-svg">
-          <p>Pssst! Rotate your device to landscape.</p>
-          <svg
-            width="106"
-            height="95"
-            viewBox="0 0 106 95"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect
-              x="42.9727"
-              y="1.5"
-              width="61.5273"
-              height="30.1777"
-              fill="#170800"
-              stroke="#EB7333"
-              stroke-width="3"
-            />
-            <rect x="1.5" y="30.6777" width="103" height="62" fill="#170800" />
-            <rect
-              x="1.5"
-              y="30.6777"
-              width="103"
-              height="62"
-              stroke="#EB7333"
-              stroke-width="3"
-            />
-            <path
-              d="M71.8824 82.4282L83.9995 66.3872L65.8203 43.9277L49.7788 51.057L44.4329 66.3872M44.4329 66.3872L36.6367 52.8837M44.4329 66.3872L58.0452 58.5281"
-              stroke="#EB7333"
-              stroke-width="3"
-            />
-          </svg>
-        </div>
-        <div class="p-svg">
-          <p>Or resize your window so it's more wide than tall.</p>
-          <svg
-            width="107"
-            height="65"
-            viewBox="0 0 107 65"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect x="32.5" y="1.5" width="73" height="62" fill="#170800" />
-            <rect
-              x="32.5"
-              y="1.5"
-              width="73"
-              height="62"
-              stroke="#EB7333"
-              stroke-width="3"
-            />
-            <rect x="1.5" y="1.5" width="69" height="62" fill="#170800" />
-            <rect
-              x="1.5"
-              y="1.5"
-              width="69"
-              height="62"
-              stroke="#EB7333"
-              stroke-width="3"
-            />
-            <path
-              d="M59.0156 33.3909H89.3242M89.3242 33.3909L78.4489 22.5156M89.3242 33.3909L79.8749 42.8403"
-              stroke="#EB7333"
-              stroke-width="3"
-            />
-          </svg>
-        </div>
+  
+    <section class="window">
+        <div class="screen-small">
+    <div class="screen-small-modal">
+      <h2>Votre ecran n’est pas a la bonne taille</h2>
+      <div class="p-svg">
+            <p>Fais pivoter ton appareil en mode paysage !</p>
+
+        <svg width="106" height="95" viewBox="0 0 106 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="42.9727" y="1.5" width="61.5273" height="30.1777" fill="#170800" stroke="#EB7333" stroke-width="3" />
+          <rect x="1.5" y="30.6777" width="103" height="62" fill="#170800" />
+          <rect x="1.5" y="30.6777" width="103" height="62" stroke="#EB7333" stroke-width="3" />
+          <path
+            d="M71.8824 82.4282L83.9995 66.3872L65.8203 43.9277L49.7788 51.057L44.4329 66.3872M44.4329 66.3872L36.6367 52.8837M44.4329 66.3872L58.0452 58.5281"
+            stroke="#EB7333" stroke-width="3" />
+        </svg>
+
+      </div>
+      <div class="p-svg">
+    <p>Ou redimensionne ta fenêtre pour qu’elle soit plus large.</p>
+
+        <svg width="107" height="65" viewBox="0 0 107 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="32.5" y="1.5" width="73" height="62" fill="#170800" />
+          <rect x="32.5" y="1.5" width="73" height="62" stroke="#EB7333" stroke-width="3" />
+          <rect x="1.5" y="1.5" width="69" height="62" fill="#170800" />
+          <rect x="1.5" y="1.5" width="69" height="62" stroke="#EB7333" stroke-width="3" />
+          <path d="M59.0156 33.3909H89.3242M89.3242 33.3909L78.4489 22.5156M89.3242 33.3909L79.8749 42.8403"
+            stroke="#EB7333" stroke-width="3" />
+        </svg>
+
+
       </div>
     </div>
-    <section class="window">
+  </div>
        <div class="help-modal-overlay">
       <div class="modal">
         <div class="modal-content-help">
@@ -1108,6 +1068,26 @@ Pour avancer dans la frise horizontale, il vous suffit de scroller normalement, 
            </p>
           </div>
         </div>
+        <div class="chapitre-frame">
+          <div id="fin" class="frame frame-texte right">
+           <h1>
+Envie de connaître d'autre histoire ?
+           </h1>
+           <a href="../Home/homePage.html">
+
+             <button class="secondary-button">
+            <p>Retourner a l'abre généalogique</p>
+            <svg class="btn-svg" width="588" height="192" viewBox="0 0 288 62" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path class="bg-hover" d="M261.263 1L286.688 31L261.263 61H26.7373L1.31055 31L26.7373 1H261.263Z"
+                fill="#57280F" />
+              <path d="M261.263 1L286.688 31L261.263 61H26.7373L1.31055 31L26.7373 1H261.263Z" fill="#"
+                stroke="#EB7333" stroke-width="var(--border-size)" />
+            </svg>
+          </button>
+           </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -1117,7 +1097,7 @@ Pour avancer dans la frise horizontale, il vous suffit de scroller normalement, 
 
     <script src="./chapitre-navigation.js"></script>
     <script type="module" src="./modal-system.js"></script>
-    <!-- <script src="../../script.js"></script> -->
+  <script src="../../js/script.js"></script>
     <script src="./zeusElementAnimation.js"></script>
     <script src="../../js/helpModal.js"></script>
     <script src="../../js/langue-modal.js"></script>

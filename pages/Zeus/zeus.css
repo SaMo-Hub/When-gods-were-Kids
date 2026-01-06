@@ -22,9 +22,17 @@ body.chapitre-list {
 
 
 }
-
+.frame-texte h1{
+  width: 500px;
+}
 /* Frame 82 */
-
+#fin{
+    display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
 button {
   all: unset;
   /* réinitialise toutes les propriétés héritables et non héritables */

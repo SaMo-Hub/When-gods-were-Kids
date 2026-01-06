@@ -556,9 +556,9 @@ if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
         
         // Puis le bouton lui-même
         tl.to(buttonPrimary, {
-          y: -100,
+          y: -200,
           opacity: 0,
-          duration: 0.4,
+          duration: 0.5,
           ease: "power2.in"
         }, 0.3);
       }
