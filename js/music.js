@@ -36,7 +36,7 @@ function setupHoverSound(selector, soundPath, maxVolume = 0.2, fadeDuration = 50
 }
 
 // === FORGERON ===
-setupHoverSound('.zone-forgeron', '../../public/sounds/forge.mp3', 0.2, 500);
+setupHoverSound('.zone-forgeron', '../../public/sounds/forge.mp3', 0.17, 500);
 
 // === FOUDRE ===
 setupHoverSound('.zone-foudre', '../../public/sounds/thunder.mp3', 0.3, 500);
@@ -48,7 +48,7 @@ setupHoverSound('.zone-chaine', '../../public/sounds/chaine4.mp3', 0.4, 500);
 // Configuration des musiques
 const musicConfig = {
   ambient: {
-    path: '../../public/music/Chill-music.mp3',
+    path: '../../public/music/ChillMusic.mp3',
     name: 'Musique Ambient'
   },
   battle: {
